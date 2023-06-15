@@ -1,0 +1,89 @@
+.Cbest{
+    width:100%;
+    height:700px;
+ display:flex;
+ justify-content: center;   
+ background-image: url("../img/backpage.jpg");
+ background-size: cover;
+ background-attachment: fixed;
+ overflow:scroll;
+}
+.cbest_main{
+ box-sizing: border-box;
+    width:70%;
+    height:800px;
+    background-color: #ffff;
+    background-image: url("../img/showingpage.png");
+   }
+   .cbest_h2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:70px;
+    width:400px;
+   }
+   .cbest_from{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+width:100%;
+align-items: center;
+   }
+   .choice{
+      margin-bottom:50px;
+     
+      display:flex;
+     
+   }
+   .choice>select{
+      border-radius: 10px;
+    margin-left: 600px;
+   }
+   .cbest_input{
+    height:8%;
+    width:70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+   }
+   .cbest_input>input{
+    height:100%;
+    border-radius: 7px;
+   }
+   .cbest_text{
+    flex-direction: column;
+    height:50%;
+    width:70%;
+    display:flex;
+  
+   }
+   .cbest_textarea{
+    border-radius: 7px;
+    flex-direction: column;
+    height:100%;
+    width:100%;
+    display:flex;
+  
+   }
+   .cbest_button{
+    margin-top: 15px;
+    display:flex;
+    width:70%;
+    height: 30px;
+    
+   }
+   .cbest_button>button{
+      box-shadow: 2px 2px 2px 2px gray;
+      color:#ffff;
+      border:none;
+      background-color:#B98EFF;
+    border-radius: 5px;
+    font-family: "oneFontTitle";
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    display:flex;
+   
+   }

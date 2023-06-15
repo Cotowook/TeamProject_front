@@ -1,0 +1,12 @@
+li {
+    border-radius: 10px;
+  }
+  
+  em {
+    font-family: oneFont;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: black;
+  }

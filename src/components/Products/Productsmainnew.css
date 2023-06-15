@@ -1,0 +1,15 @@
+.main_new1{
+    min-width:282px;
+    margin:20px;
+  }
+  .new_img1{
+    height:310px;
+    width:250px;
+    border-radius: 10px;
+    background-color: gray;
+    box-shadow: 5px 5px 5px 5px gray;
+  }
+  .new_text1>h2{
+    font-family: "oneFontTitle";
+    margin-top: 20px;
+  }

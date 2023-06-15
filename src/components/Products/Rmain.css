@@ -1,0 +1,68 @@
+
+.rap_main{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height:300px;
+    width:250px;
+    margin:35px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+   background-image:linear-gradient(#B98EFF,white);
+      
+}
+
+    .rap_main:hover{
+        transform: scale(1.1);
+        transition-duration: .5s;
+      }
+
+.rap_main_name{
+    font-family: "oneFontTitle";
+    height:100%;
+    display:flex;
+    width:30%;
+    
+}
+.rap_main_img{
+    padding:15px;
+    border-radius: 5px;
+    height:65%;
+    width:100%;
+    object-fit: cover;
+    display:flex;
+   
+}
+.rap_main_price{
+    font-family: "oneFontTitle";
+    font-size: small;
+}
+.rap_main_plus{
+    width:100%;
+    height:50px;
+    justify-content: space-around;
+    display:flex;
+   flex-direction:row;
+   align-items: center;
+}
+.rap_main_button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:15%;
+}
+.r_main_button{
+    width:150px;
+    height:30px;
+    
+    border-radius: 10px;
+    background-color: #B98EFF;
+    font-family: "oneFontTitle";
+
+}
+.r_main_button:hover{
+    transform: scale(1.1);
+    transition-duration: .5s;
+}

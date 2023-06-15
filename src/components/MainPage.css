@@ -1,0 +1,78 @@
+.mid_banner {
+    width: 100%;
+  }
+  
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    align-items: center;
+    background-color: white;
+  }
+  
+  button {
+    background-color: white;
+    border: none;
+  }
+  
+  .bannerLogo {
+    height: 60px;
+  }
+  
+  .about_hl {
+    width: 100%;
+  }
+  
+  .logo_mean_left,
+  .logo_mean_right {
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .banner_btnItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .left-buttons,
+  .right-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo_mean_left {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition-property: opacity, transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+  }
+  
+  .logo_mean_right {
+    opacity: 0;
+    transform: translateX(50px);
+    transition-property: opacity, transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+  }
+  
+  .logo_mean_left.visible,
+  .logo_mean_right.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .MainPage{
+    height:800px;
+    overflow: scroll;
+  }

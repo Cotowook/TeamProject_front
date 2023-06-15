@@ -1,0 +1,208 @@
+{
+  "names": [
+    {
+      "id": 1,
+      "title": "체중감량",
+      "body": "신세경의 다이어트 비법",
+      "writer": "이현우",
+      "logo": "./img/loone.png"
+    },
+    {
+      "id": 2,
+      "title": "근력강화",
+      "body": "헬린이들 이거보면서 운동하세요",
+      "writer": "김해인",
+      "logo": "lotwo"
+    },
+    {
+      "id": 3,
+      "title": "체중감량",
+      "body": "20kg감량한 썰 푼다",
+      "writer": "임욱",
+      "logo": "lotwo"
+    },
+    {
+      "id": 4,
+      "title": "식단 조절",
+      "body": "당뇨 환자의 식단 꿀팁",
+      "writer": "권해수",
+      "logo": "loone"
+    },
+    {
+      "id": 5,
+      "title": "체중감량",
+      "body": "신세경의 다이어트 비법",
+      "writer": "이현우",
+      "logo": "lotwo"
+    }
+  
+  ],
+  "products": [
+    {
+      "id": 1,
+      "img": "https://andar.co.kr/web/product/small/202303/2aa981c3bf720faf7325092089320102.jpg",
+      "name": "셔츠",
+      "price": "48000"
+    },
+    {
+      "id": 2,
+      "img": "https://andar.co.kr/web/product/medium/202303/c9244b8bde16f8a1c69a76c2a6e369b7.jpg",
+      "name": "롱슬리브",
+      "price": "24000"
+    },
+    {
+      "id": 3,
+      "img": "https://andar.co.kr/web/product/small/202303/b29a922033c76acf987dc00affb15314.jpg",
+      "name": "카라반팔",
+      "price": "15000"
+    },
+    {
+      "id": 4,
+      "img": "https://andar.co.kr/web/product/medium/202303/967ca25b8acab37801febdb4a2896e4a.jpg",
+      "name": "반팔",
+      "price": "8500"
+    },
+    {
+      "id": 5,
+      "img": "https://andar.co.kr/web/product/medium/202303/967ca25b8acab37801febdb4a2896e4a.jpg",
+      "name": "반팔",
+      "price": "8500"
+    },
+    {
+      "id": 6,
+      "img": "https://andar.co.kr/web/product/small/202303/b29a922033c76acf987dc00affb15314.jpg",
+      "name": "카라반팔",
+      "price": "15000"
+    },
+    {
+      "id": 7,
+      "img": "https://andar.co.kr/web/product/medium/202303/c9244b8bde16f8a1c69a76c2a6e369b7.jpg",
+      "name": "롱슬리브",
+      "price": "24000"
+    },
+    {
+      "id": 8,
+      "img": "https://andar.co.kr/web/product/small/202303/2aa981c3bf720faf7325092089320102.jpg",
+      "name": "셔츠",
+      "price": "48000"
+    }
+  ],
+  "massage": [
+    {
+      "id": 1,
+      "img": "https://andar.co.kr/web/product/small/202303/bbfe47bb11413fcc1f24283eaf759442.jpg",
+      "name": "손목보호대",
+      "price": "123154"
+    },
+    {
+      "id": 2,
+      "img": "https://andar.co.kr/web/product/medium/202010/cffb58d95d0a3361257758c977b2bbd9.jpg",
+      "name": "마사지 볼",
+      "price": "123000"
+    },
+    {
+      "id": 3,
+      "img": "https://andar.co.kr/web/product/small/202303/3549915671c81d71e228982dc0e11b5a.jpg",
+      "name": "요가매트",
+      "price": "1000"
+    },
+    {
+      "id": 4,
+      "img": "https://andar.co.kr/web/product/small/202303/72a0fbd95c55b96d2bb1b9d653fe6192.jpg",
+      "name": "폼 롤러",
+      "price": "120300"
+    },
+    {
+      "id": 5,
+      "img": "https://andar.co.kr/web/product/medium/202205/df3cad6a6a569883caf64053e40ad5a3.jpg",
+      "name": "나무 마사지 볼",
+      "price": "8500"
+    },
+    {
+      "id": 6,
+      "img": "https://andar.co.kr/web/product/medium/202106/040e4f46d500cdc1703517abb2b0aa0a.jpg",
+      "name": "비닐 요가 매트",
+      "price": "800"
+    }
+  ],
+  "content": [
+    {
+      "id": 1,
+      "body": "우와 최고에요"
+    },
+    {
+      "body": "와 꿀팁이네요",
+      "id": 2
+    },
+    {
+      "body": "asdasd",
+      "id": 3
+    },
+    {
+      "body": "asdasd",
+      "id": 4
+    },
+    {
+      "body": "sdsdsdd",
+      "id": 5
+    }
+  ],
+  "gym": [
+    {
+      "id": 1,
+      "name": "자마이카휘트니스",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRCF6BMKvoYSV2Rh3cDcgLxa1GTNsg7L_Heg&usqp=CAU",
+      "local": "서울",
+      "price": 55000
+    },
+    {
+      "id": 2,
+      "name": "히트 라이프 짐",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-gbMjG6bfyBpQK2nUOcsdfCSIOq01yuighQ&usqp=CAU",
+      "local": "대구",
+      "price": 33000
+    },
+    {
+      "id": 3,
+      "name": "라이프 줄리엣 짐",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTYGRcfwij-a0milpXghT-cgp8PhwWpS2wfA&usqp=CAU",
+      "local": "경북",
+      "price": 20000
+    },
+    {
+      "id": 4,
+      "name": "휘트니스 헬로우짐",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgJSm3prpzzN2F4HQx16voHLG36i8FdQPETQ&usqp=CAU",
+      "local": "인천",
+      "price": 35000
+    },
+    {
+      "id": 5,
+      "name": "테리온 휘트니스",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_oSg2UwjeX7BfpxsAXvt2xGQdbuXK6jgzbw&usqp=CAU",
+      "local": "서울",
+      "price": 45000
+    },
+    {
+      "id": 6,
+      "name": "아프로 휘트니스",
+      "img": "https://watermark.lovepik.com/photo/20211126/large/lovepik-gym-picture_501088658.jpg",
+      "local": "서울",
+      "price": 50000
+    },
+    {
+      "id": 7,
+      "name": "인디언 마이 짐",
+      "img": "https://img.seoul.co.kr//img/upload/2021/01/04/SSI_20210104143340.jpg",
+      "local": "부산",
+      "price": 37000
+    },
+    {
+      "id": 8,
+      "name": "JR 휘트니스",
+      "img": "https://watermark.lovepik.com/photo/20211126/large/lovepik-gym-picture_501088659.jpg",
+      "local": "김포",
+      "price": 20000
+    }
+  ]
+}

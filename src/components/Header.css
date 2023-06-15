@@ -1,0 +1,27 @@
+.banner {
+  display: flex;
+ 
+  justify-content: space-between;
+  z-index: 100;
+  align-items: center;
+  background-color: white;
+}
+
+.bannerBtn {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner_btnItems {
+  font-size: 12px;
+}
+
+.inputForm {
+  background-color: white;
+  width: 150px;
+  border: none;
+  border-bottom: 1px solid #000;
+}

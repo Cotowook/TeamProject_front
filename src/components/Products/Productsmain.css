@@ -1,0 +1,99 @@
+.Productsmain{
+
+    padding-left: 15%;
+    padding-top:60px;
+    background-color: #FFFF;
+    width:110%;
+    height:2000px;
+  display:flex;
+  flex-direction: column;
+  
+  }
+  .advertisement{
+    
+  background-color: #FFFF;
+  }
+ .advertisement>h1{
+  font-family: "oneFontTitle";
+  margin:20px;
+  
+ }
+  .advertisement>img{
+    width:90%;
+    height:400px;
+    background-size: cover;
+  }
+.main_best{
+  border-bottom:2px solid black;
+  border-top:2px solid black;
+  width:1300px;
+  height:450px;
+  box-sizing: border-box;  
+}
+.main_bestscroll{
+  display:flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+.main_bestscroll::-webkit-scrollbar{
+  width: 10px;
+}
+.main_bestscroll::-webkit-scrollbar-thumb{
+  background-color: #cfd3da;
+  background-clip: padding-box;
+  border: 5px solid transparent;
+   
+  border-radius: 30px;
+
+}
+.main_bestscroll::-webkit-scrollbar-track{
+  background-color: #FFFF;
+}
+
+
+.main_new{
+  border-bottom:2px solid black;
+  border-top:2px solid black;
+  width:1300px;
+  height:450px;
+box-sizing: border-box;  
+}
+
+.main_newscroll{
+  display:flex;
+  flex-direction: row;
+
+  overflow-x: scroll;
+  
+}
+.main_newscroll::-webkit-scrollbar{
+  width: 10px;
+ 
+ 
+}
+.main_newscroll::-webkit-scrollbar-thumb{
+  background-color: #cfd3da;
+  background-clip: padding-box;
+    border: 5px solid transparent;
+   
+  border-radius: 30px;
+
+}
+.main_newscroll::-webkit-scrollbar-track{
+  background-color: #FFFF;
+}
+
+
+
+.prototype{
+  margin-top: 10px;
+  height:500px;
+  width:100%;
+  background-attachment: fixed;
+  background-size: cover;
+ background-image: url("../img/showingpage.png");
+}
+.prototype>h1{
+  font-family: "oneFontTitle";
+
+}

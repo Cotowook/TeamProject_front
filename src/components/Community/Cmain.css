@@ -1,0 +1,193 @@
+.Cmain{
+    width:100%;
+    height:760px;
+ display:flex;
+ justify-content: center;   
+ background-image: url("../img/backpage.jpg");
+ background-size: cover;
+ background-attachment: fixed;
+ overflow:scroll;
+}
+.cmain_ab{
+    box-sizing: border-box;
+    height:320px;
+    width:100%;
+    padding:20px;
+   
+}
+.cmain_a{
+    height:100%;
+    width:100%;
+    background-size: cover;
+    background-image:url(../img/ad_3.jpg);
+}
+
+.cmain_main{
+ 
+ width:70%;
+ height:1200px;
+ background-color: #FFFF;
+
+}
+
+.cmain_button{
+    
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 50px;
+
+}
+
+.cmain_bt{
+    
+    box-shadow: 2px 2px 2px 2px gray;
+    background-color:#FFFF;
+    color:#B98EFF;
+    border:none;
+    border-radius: 5px;
+    display:flex;
+    font-family: "oneFontTitle";
+    font-size: small;
+    height:30px;
+    width:70px;
+    align-items: center;
+    justify-content: center;
+}
+.cmain_bt:hover{
+    transition-duration: .5s;
+    background-color:#7e2eff;
+}
+.crud_map{
+    display:flex;
+    width:100%;
+    flex-wrap: wrap;
+}
+.cmain_next{
+    display:flex;
+    justify-content: center;
+}
+
+.pagination-box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .paging_btn {
+    text-decoration: none;
+    color: #b98eff;
+    padding: 20px;
+  }
+
+.ads {
+    height: 1000px;
+    display: flex;
+    width: 100%;
+    position: relative;
+  }
+  
+  .ad_4 {
+    width: 100%;
+    height: 283px;
+  }
+  
+  .ad_left,.ad_right {
+    width: 182px;
+    height: 534px;
+    margin: 100px 20px 0px 20px;
+  }
+  
+  .btn_write {
+    color: #b98eff;
+    font-weight: bolder;
+    padding: 10px 0px;
+    width: 80px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+  }
+  
+  .btn_write:hover {
+    background-color: #b98eff;
+    color: rgb(49, 49, 49);
+    border: none;
+  }
+  
+  .search_post_input {
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+  }
+  
+  .search_container {
+    display: flex; /* 플렉스 디스플레이 설정 */
+    justify-content: space-between; /* 아이템들을 가로 방향으로 가운데 정렬 */
+    align-items: center; /* 아이템들을 세로 방향으로 가운데 정렬 */
+    margin: 2rem;
+  }
+  
+  .crud_map {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .crud_map > * {
+    flex-shrink: 0;
+  }
+  
+  /* 페이지 이동 버튼 */
+  .pagination-box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .paging_btn {
+    text-decoration: none;
+    color: #b98eff;
+    padding: 20px;
+  }
+  
+  /*  dropdown 메뉴 */
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    position: relative;
+  }
+  
+  .option_title {
+    text-decoration: none;
+    color: #8a8a8a;
+    font-weight: bolder;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+  }
+  
+  .option_parent:hover {
+    background-color: #ccd7ff;
+    border-radius: 0;
+  }
+  
+  li:hover .options_container {
+    display: block;
+  }
+  
+  .options_container {
+    display: none;
+    position: absolute;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+    text-decoration: none;
+    color: #8a8a8a;
+    box-shadow: 5px 5px 20px lightgray;
+  }
+  
+  .options_container a {
+    text-decoration: none;
+    color: #8a8a8a;
+    padding: 10px;
+  }
+  

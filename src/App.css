@@ -1,0 +1,12 @@
+@font-face {
+    font-family: oneFontTitle;
+    src: url(../src/components/font/ONE\ Mobile\ Title.ttf);
+  }
+  
+  @font-face {
+    font-family: oneFont;
+    src: url(../src/components/font/ONE\ Mobile\ Regular.ttf);
+  }
+  body{
+    background-color: aliceblue;
+  }
